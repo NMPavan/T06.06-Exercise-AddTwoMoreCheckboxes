@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_bass_default"
+        android:key="@string/pref_show_bass_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_bass_label" />
+<CheckBoxPreference
+    android:defaultValue="@bool/pref_show_tri_default"
+    android:key="@string/pref_show_tri_key"
+    android:summaryOn="@string/pref_tri_true"
+    android:summaryOff="@string/pref_tri_false"
+    android:title="Show Triangle"/>
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_square_default"
+        android:key="@string/pref_show_square_key"
+        android:summaryOn="@string/pref_square_true"
+        android:summaryOff="@string/pref_square_false"
+        android:title="Show Square"/>
+    <!-- TODO (1) Add two more checkboxes for the treble and mid-range -->
+</PreferenceScreen>

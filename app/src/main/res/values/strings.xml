@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Visualize</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- - - - - - - - - - - - - - - -
+          - Used by Preferences  -
+          - - - - - - - - - - - - - - - -->
+
+    <!-- Label for the show bass checkbox preference -->
+    <string name="pref_show_bass_label">Show Bass</string>
+    <!-- Key name for storing bass in SharedPreferences -->
+    <string name="pref_show_bass_key" translatable="false">show_bass</string>
+
+    <!-- Summary for Checkboxes -->
+    <string name="pref_tri_true">Shown</string>
+    <string name="pref_tri_false">Hidden</string>
+    <string name="pref_show_tri_label">Show Triangle</string>
+    <!-- Key name for storing bass in SharedPreferences -->
+    <string name="pref_show_tri_key" translatable="false">show_tri</string>
+
+    <!-- Summary for Checkboxes -->
+    <string name="pref_square_true">Shown</string>
+    <string name="pref_square_false">Hidden</string>
+    <string name="pref_show_square_label">Show Square</string>
+    <!-- Key name for storing bass in SharedPreferences -->
+    <string name="pref_show_square_key" translatable="false">show_square</string>
+
+    <!-- Summary for Checkboxes -->
+    <string name="pref_show_true">Shown</string>
+    <string name="pref_show_false">Hidden</string>
+
+
+
+    <!-- TODO (2) Add all of the strings for the new checkboxes -->
+
+    <!-- Value in SharedPreferences for red color option -->
+    <string name="pref_color_red_value" translatable="false">red</string>
+
+    <!-- Value in SharedPreferences for blue color option -->
+    <string name="pref_color_blue_value" translatable="false">blue</string>
+
+    <!-- Value in SharedPreferences for green color option -->
+    <string name="pref_color_green_value" translatable="false">green</string>
+</resources>
